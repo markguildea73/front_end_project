@@ -32,15 +32,14 @@ html, body{
 
 }
 
-button[type="button"] {
-    float: right;
-}
 
 /* Navbar lots used from Whiskey project*/
 
 .navbar {
     margin-bottom: 0;
     position: absolute;
+    color: white;
+    font-family: "Rancho";
     top: 0;
     left: 0;
     width: 100%;
@@ -67,7 +66,7 @@ button[type="button"] {
 
 .navbar .navbar-brand {
     font-weight: bold;
-    color: white;
+    color: #00ff00;
 }
 
 .navbar .navbar-brand:hover {
@@ -90,11 +89,15 @@ button[type="button"] {
     color: white;
 }
 
+.nav.navbar-nav li a {
+    color: white;
+}
+
 .navbar-btn {
     border: 0;
-    border-radius: 30px;
-    width: 100px;
-    background-color: #f05f40;
+    border-radius: 50px;
+    width: 200px;
+    background-color: #00ff00;
     color: white;
 }
 
@@ -104,6 +107,4 @@ button[type="button"] {
     color: white;
 }
 
-.active {
-    color:white;
-}
+
