@@ -119,7 +119,29 @@ html, body {
     color: #e67300;
 }
 .navbar-call {
-    color: #e67300;
+
 }
+/* container */
+
+/* footer */
+
+footer {
+    background: url(../images/mon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+    
+.footer-container {
+
+}
+
+
+.card-body {
+    background-color: none;
+    
+}
+
+
 
 
