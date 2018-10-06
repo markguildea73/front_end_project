@@ -13,7 +13,7 @@ html, body {
 .container {
     color: #e67300;
     font-family: "Rancho";
-    top:0;
+    top: 0;
     width: 100%;
     height: 100%;
     margin: auto;
@@ -45,13 +45,15 @@ html, body {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, .02);
+    background-color: rgba(0, 0, 0, .05);
     border: 0;
+    font-family: "Rancho";
 }
 
 
 .navbar-default .navbar-collapse {
     border-color: transparent;
+    font-size: 20px;
 }
 
 .navbar-default .navbar-toggle {
@@ -69,7 +71,9 @@ html, body {
 .navbar .navbar-band {
     font-weight: bold;
     font-family: "Rancho";
-    color: #e67300;
+    color: #fff;
+    position: relative;
+    top: 15px;
 }
 
 .navbar .navbar-band:hover {
@@ -114,8 +118,7 @@ html, body {
     background-color: transparent;
     color: #e67300;
 }
-
-.navbar-right .navbar-call {
+.navbar-call {
     color: #e67300;
 }
 
