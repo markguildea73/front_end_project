@@ -10,7 +10,7 @@ html, body {
 
 /* image and body*/
 
-.container {
+.page-picture {
     color: #e67300;
     font-family: "Rancho";
     top: 0;
@@ -125,23 +125,60 @@ html, body {
 
 /* footer */
 
-footer {
+.brand-logo {
     background: url(../images/mon.png);
     background-position: right;
     background-repeat: no-repeat;
+    background-color: yellow;
 }
 
-    
 .footer-container {
-
+    background-color: yellow;
 }
 
-
-.card-body {
-    background-color: none;
+.footer-call {
     
 }
 
+.row {
+    margin-left: 20px;
+}
+
+/* contact page */
+
+.contact-container {
+     color: #e67300;
+    font-family: "Rancho";
+    top: 0;
+    min-height: 360px;
+    margin: auto;
+    background: url("../images/gettyimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* videos of TV show embedded */
+
+.tv-con {
+    background-color: yellow;
+    padding-top: 100px;
+}
+
+.embed-video {
+    
+    height:350px;
+    margin-top:20px;
+    border:3px;
+}
+h4 {
+    color:blue;
+    font-family: "Rancho";
+}
+   
 
 
 
