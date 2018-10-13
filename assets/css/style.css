@@ -5,37 +5,10 @@ html, body {
     height: 0;
     height: 100%;
     width: 100%;
-    
 }
 
-/* image and body*/
+/* Index styling*/
 
-.page-picture {
-    color: #e67300;
-    font-family: "Rancho";
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background: url("../images/monkeessit.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-.text_inside .content .text {
-    font-family: "Rancho";
-    color: #e67300;
-    margin-top: 0;
-    text-align: right;
-
-}
-
-
-/* Navbar lots used from Whiskey project*/
 
 .navbar {
     margin-bottom: 0;
@@ -48,8 +21,8 @@ html, body {
     background-color: rgba(0, 0, 0, .05);
     border: 0;
     font-family: "Rancho";
+    font-size: 30px;
 }
-
 
 .navbar-default .navbar-collapse {
     border-color: transparent;
@@ -75,10 +48,10 @@ html, body {
     position: relative;
     top: 15px;
 }
-
-.navbar .navbar-band:hover {
-    color: white;
+a.navbar-band:hover {
+    text-decoration: none;
 }
+
 
 .navbar-default .navbar-nav a {
     font-weight: bold;
@@ -86,15 +59,6 @@ html, body {
 }
 
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus {
-    color:white;
-    background: transparent;
-}
-.navbar-default .navbar-nav>.active>a:hover{
-    color: #e67300;
-    background:transparent;
-}
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
@@ -103,6 +67,12 @@ html, body {
 
 .nav.navbar-nav li a {
     color: white;
+    font-size: 30px;
+}
+
+.nav>li {
+    position: relative;
+    display: inline-block;
 }
 
 .navbar-btn {
@@ -118,41 +88,15 @@ html, body {
     background-color: transparent;
     color: #e67300;
 }
-.navbar-call {
 
-}
-/* container */
-
-/* footer */
-
-.brand-logo {
-    background: url(../images/mon.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color: yellow;
-}
-
-.footer-container {
-    background-color: yellow;
-}
-
-.footer-call {
-    
-}
-
-.row {
-    margin-left: 20px;
-}
-
-/* contact page */
-
-.contact-container {
-     color: #e67300;
+.page-picture {
+    color: #e67300;
     font-family: "Rancho";
     top: 0;
-    min-height: 360px;
+    width: 100%;
+    height: 100%;
     margin: auto;
-    background: url("../images/gettyimage.jpg");
+    background: url("../images/monkeessit.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,6 +104,61 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+.text_inside .content .text {
+    font-family: "Rancho";
+    color: #e67300;
+    margin-top: 0;
+    text-align: right;
+
+}
+
+/* footer */
+
+.header-container {
+    background: url(../images/mon.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: #bcdcd9;
+
+}
+
+.footer-container {
+    background-color: #bcdcd9;
+}
+
+.navbar-call .i {
+    position: relative;
+    font-size: 30px;
+    
+    
+}
+
+/* Songs page */
+
+
+/* TV page */
+
+
+/* Contact page */
+
+.contact-container {
+    color: #e67300;
+    font-family: "Rancho";
+    font-size: 20px;
+    top: 0;
+    min-height: 360px;
+    margin: auto;
+    background: url("../images/gettyimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
 
 /* videos of TV show embedded */
 
@@ -169,10 +168,9 @@ html, body {
 }
 
 .embed-video {
-    
-    height:350px;
-    margin-top:20px;
-    border:3px;
+
+
+
 }
 h4 {
     color:blue;
@@ -181,4 +179,19 @@ h4 {
    
 
 
+/* Question page */
 
+.question-image {
+    font-family: "Rancho";
+    color:white;
+    top: 0;
+    min-height: 600px;
+    margin: auto;
+    background: url("../images/0005-peter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
